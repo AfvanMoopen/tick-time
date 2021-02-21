@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* // font-family: "Courier New", Courier, monospace; */
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+}
+
+body {
+  width: 100vw;
+  color: rgb(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(154, 209, 223);
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

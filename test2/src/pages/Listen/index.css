@@ -1,0 +1,32 @@
+.Listen {
+  display: grid;
+  margin-top: 2em;
+  height: 100vh;
+  grid-template-rows: 5em 1fr 1fr;
+  grid-template-columns: 5em 1fr 5em;
+  align-items: center;
+  color: black;
+  /* // color: rgb(148, 69, 69); */
+}
+
+.back-button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: xx-large;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
+
+.title {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.plot {
+  padding-top: 5em;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+}

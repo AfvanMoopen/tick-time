@@ -1,0 +1,24 @@
+h1 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.Main {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr 3em;
+  row-gap: 2em;
+  align-items: center;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .Main {
+    height: 90vh;
+  }
+}
+
+p {
+  font-size: x-large;
+  padding-bottom: 0.5em;
+}
